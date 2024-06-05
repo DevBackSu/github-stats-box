@@ -12,7 +12,7 @@ jobs:
             - uses: actions/setup-node@master
               with:
                   node-version: 16
-            # If you edit the .js files and want to run them in your GitHub Action, you need to:
+            # If you edit the .js  files and want to run them in your GitHub Action, you need to:
             # - uncomment the 2 following lines
             # - replace "npx github-stats-box@1" with "npm start"
             # N.B: Your action will not receive future updates if you do so
